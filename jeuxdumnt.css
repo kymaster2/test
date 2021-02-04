@@ -1,0 +1,63 @@
+body{
+	background: url('fond.jpg')no-repeat;
+	background-size: cover;
+}
+header{
+	background: url('Pro-team.png') no-repeat;
+	background-size: cover;
+}
+nav ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+nav ul li a{
+	display: block;
+	text-decoration: none;
+	color: white;
+}
+nav ul{
+	list-style: none;
+}
+nav ul li{
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 200px;
+	height: 40px;
+	background-color: #620B57;
+	line-height: 40px;
+	text-align: center;
+}
+nav ul li ul li{
+	display: none;
+	background-color: #B61FA2;
+	float: left;
+}
+nav ul li a:hover{
+	background-color: #000;
+	opacity: 0.5;
+}
+nav ul li:hover ul li{
+	display: block;
+}
+h1{
+	color: #843030;
+}
+p{
+	color: #fff;
+	font-size: 40px;
+}
+a{
+	color: #FD0101;
+}
+div#content div{
+	display: inline-block;
+	width: 49%;
+}
+div#content div.leftbox{
+	vertical-align: top;
+}
+div#content div.rightbox{
+
+}
